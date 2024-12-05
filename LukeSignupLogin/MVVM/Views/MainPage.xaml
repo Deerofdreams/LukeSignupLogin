@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LukeSignupLogin.MVVM.Views.MainPage"
+
+>
+    <ScrollView>
+        <StackLayout>
+            <Button x:Name="Sign_up" Text="Sign up" Clicked="Sign_up_Clicked" HorizontalOptions="Fill"/>
+            <Button x:Name="Log_in" Text="Log in"  Clicked="Log_in_Clicked" HorizontalOptions="Fill"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
